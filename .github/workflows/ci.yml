@@ -36,4 +36,4 @@ jobs:
         run: yamllint --format github .
 
       - name: Lint code with ansible-lint.
-        run: ansible-lint -p --parseable-severity --force-color -vvvvv
+        run: ansible-lint -p --force-color -vvvvv
