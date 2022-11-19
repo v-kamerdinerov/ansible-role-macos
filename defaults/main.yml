@@ -86,7 +86,6 @@ macos_homebrew_cask_pkg:
   - "discord"
   - "dbeaver-community"
   - "docker"
-  - "flux"
   - "font-consolas-for-powerline"
   - "font-fira-code"
   - "font-hack-nerd-font"
@@ -99,11 +98,11 @@ macos_homebrew_cask_pkg:
   - "gpg-suite-no-mail"
   - "notion"
   - "pycharm-ce"
-  - "rectangle"
   - "visual-studio-code"
   - "virtualbox"
   - "whatsapp"
   - "zoomus"
+  - "qbittorent"
 
 # Set extras Homebrew cask packages
 macos_homebrew_cask_pkg_ext: []
