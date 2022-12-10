@@ -100,6 +100,7 @@ macos_homebrew_cask_pkg:
   - "pycharm-ce"
   - "visual-studio-code"
   - "virtualbox"
+  - "vox"
   - "whatsapp"
   - "zoomus"
   - "qbittorent"
