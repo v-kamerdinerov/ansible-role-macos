@@ -1,7 +1,7 @@
 ---
 # tasks file for macos
 
-- name: macOS | Tap a Homebrew repository, state present
+- name: MacOS | Tap a Homebrew repository, state present
   community.general.homebrew_tap:
     name: "{{ item }}"
   with_items:
@@ -9,7 +9,7 @@
     - "{{ macos_homebrew_tap_ext }}"
   tags: ["tap"]
 
-- name: macOS | Install base soft
+- name: MacOS | Install base soft
   community.general.homebrew:
     name: "{{ item }}"
     state: present
@@ -18,7 +18,7 @@
     - "{{ macos_homebrew_pkg_ext }}"
   tags: ["base"]
 
-- name: macOS | Install cask soft
+- name: MacOS | Install cask soft
   community.general.homebrew_cask:
     name: "{{ item }}"
     state: present
@@ -27,7 +27,7 @@
     - "{{ macos_homebrew_cask_pkg_ext }}"
   tags: ["cask"]
 
-- name: macOS | Install MAS soft
+- name: MacOS | Install MAS soft
   community.general.mas:
     id: "{{ item.id }}"
     state: present
@@ -36,7 +36,7 @@
     - "{{ macos_mas_pkg_ext }}"
   tags: ["mas"]
 
-- name: macOS | Set a hostname
+- name: MacOS | Set a hostname
   ansible.builtin.hostname:
     name: "{{ macos_hostname }}.local"
   tags: ["hostname"]
