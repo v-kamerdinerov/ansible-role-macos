@@ -35,11 +35,6 @@ Example playbook:
     - v-kamerdinerov.macos
 ```
 
-## Author
-
-Michael Savin aka `@jtprogru`
-
-Twitter: [![Twitter Follow](https://img.shields.io/twitter/follow/jtprogru?color=gree&style=plastic)](https://twitter.com/jtprogru/)
 
 ## License
 
