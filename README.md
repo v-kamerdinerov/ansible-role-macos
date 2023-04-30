@@ -1,9 +1,7 @@
 # v-kamerdinerov.macos
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/v-kamerdinerov/ansible-role-macos/CI?label=CI)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/v-kamerdinerov/ansible-role-macos/Release?label=Release)
-![GitHub](https://img.shields.io/github/license/v-kamerdinerov/ansible-role-macos)
-[![GitHub tag](https://img.shields.io/github/tag/v-kamerdinerov/ansible-role-macos.svg)](https://github.com/v-kamerdinerov/ansible-role-macos/tags)
+![GitHub CI Status](https://github.com/v-kamerdinerov/ansible-role-macos/actions/workflows/ci.yml/badge.svg)
+![GitHub](https://img.shields.io/github/license/v-kamerdinerov/ansible-role-macos)  
 
 This is simple ansible role for configure hostname and install my favorite soft from Homebrew and Mac App Store.
 
