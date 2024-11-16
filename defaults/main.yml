@@ -24,86 +24,54 @@ macos_homebrew_pkg:
   - "bash"
   - "brotli"
   - "ca-certificates"
-  - "coreutils"
   - "colordiff"
+  - "coreutils"
   - "curl"
   - "fontconfig"
   - "freetype"
-  - "fzf"
-  - "gdbm"
   - "gettext"
-  - "gh"
   - "git"
-  - "gitbackup"
   - "gnu-getopt"
-  - "httpie"
-  - "hugo"
   - "htop"
-  - "imagemagick"
   - "jq"
   - "lsd"
   - "mas"
-  - "ncdu"
-  - "ncurses"
-  - "neofetch"
-  - "neovim"
-  - "newsboat"
-  - "node"
-  - "openssl@1.1"
-  - "pcre"
-  - "pcre2"
-  - "python@3.9"
-  - "ranger"
+  - "openstackclient"
+  - "pigz"
+  - "python@3.12"
   - "readline"
-  - "ripgrep"
   - "rsync"
-  - "screen"
-  - "six"
-  - "speedtest-cli"
-  - "sqlite"
+  - "socat"
   - "sshuttle"
   - "telnet"
   - "terraform"
-  - "terraform-ls"
-  - "tig"
   - "tree"
-  - "tree-sitter"
   - "wget"
   - "xz"
   - "yamllint"
   - "yq"
-  - "zsh"
-  - "zsh-autosuggestions"
-  - "zsh-syntax-highlighting"
+  - "yubico-piv-tool"
+
 
 # Set extras Homebrew packages
 macos_homebrew_pkg_ext: []
 
 # Set default Homebrew cask packages
 macos_homebrew_cask_pkg:
-  - "caffeine"
-  - "cloudflare-warp"
-  - "discord"
   - "dbeaver-community"
   - "docker"
-  - "font-consolas-for-powerline"
-  - "font-fira-code"
-  - "font-hack-nerd-font"
-  - "font-meslo-for-powerline"
-  - "font-meslo-lg"
-  - "font-meslo-lg-dz"
-  - "font-meslo-lg-nerd-font"
   - "font-roboto-mono"
   - "font-roboto-mono-for-powerline"
-  - "gpg-suite-no-mail"
-  - "notion"
+  - "intellij-idea-ce"
+  - "iterm2"
+  - "keepassxc"
   - "pycharm-ce"
-  - "visual-studio-code"
+  - "qbittorent"
   - "virtualbox"
-  - "vox"
+  - "visual-studio-code"
+  - "vlc"
   - "whatsapp"
   - "zoomus"
-  - "qbittorent"
 
 # Set extras Homebrew cask packages
 macos_homebrew_cask_pkg_ext: []
@@ -112,14 +80,14 @@ macos_homebrew_cask_pkg_ext: []
 macos_mas_pkg:
   - name: "Keynote"
     id: 409183694
-  - name: "Numbers"
-    id: 409203825
   - name: "Pages"
     id: 409201541
   - name: "Telegram"
     id: 747648890
-  - name: "WireGuard"
-    id: 1451685025
+  - name: "windows-app"
+    id: 1295203466
+  - name: "v2box-v2ray-client"
+    id: 6446814690
 
 
 # Set extras Mac App Store (MAS) packages
